@@ -1,0 +1,11 @@
+[package]
+name = "cheetah"
+version = "0.1.0"
+authors = [ "Ariel Henryson <ariel.henryson@gmail.com>" ]
+edition = "2018"
+
+[dependencies]
+# use for parsing command line arguments
+cheetah_lib = { path = "../cheetah_lib" }
+
+clap = "2.26.0"

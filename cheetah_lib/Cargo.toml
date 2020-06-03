@@ -1,0 +1,16 @@
+[package]
+name = "cheetah_lib"
+version = "0.1.0"
+authors = ["Ariel Henryson <ariel.henryson@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# stuff for JIT
+cranelift = "0.33.0"
+cranelift-module = "0.33.0"
+cranelift-simplejit = "0.33.0"
+
+# use for  lexical analysis
+logos = "0.9.7"
